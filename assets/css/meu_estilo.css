@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-padding-top: 50px;
 }
 
 nav{
@@ -12,11 +13,16 @@ nav{
     align-items: center;
     justify-content: end;
     list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+   
     
 }
 
 nav li{
-    padding: 10px;
+    padding: 25px;
 
 }
 
@@ -42,6 +48,14 @@ section{
     padding: 5px;
     font-size: 2rem;
     border: 3px solid fuchsia ;
-    background-color: #98c8c8;
+    background-color: #e2ffff;
     color: #484848;
+}
+
+p{
+    padding: 5px;
+}
+
+.conteudo{
+    margin-top: 50px;
 }
