@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 50px;
+    background-color: #484848;
+    color: #c8c8c8;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+    
+}
+
+nav li{
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+a:hover{
+    color: rgb(207, 134, 230);
+}
+section{
+    min-height: 480px;
+    background-color: #484848;
+    color: orange;
+    padding: 10px;
+    border: 2px dotted rgba(255, 150, 255, 0.733);
+}
+
+
+.comando-git{
+    padding: 5px;
+    font-size: 2rem;
+    border: 3px solid fuchsia ;
+    background-color: #98c8c8;
+    color: #484848;
+}
