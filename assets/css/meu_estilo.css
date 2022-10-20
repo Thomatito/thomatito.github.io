@@ -5,8 +5,8 @@
 }
 
 nav{
-    height: 50px;
-    background-color: #484848;
+    height: 45px;
+    background-color: #292929;
     color: #c8c8c8;
     display: flex;
     padding: 10px;
@@ -58,4 +58,33 @@ p{
 
 .conteudo{
     margin-top: 50px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto{
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 2px;
+    margin: 10px;
+}
+
+.projeto>img{
+    width: 100%;
+}
+
+.labels span {
+    color: white !important;
+    background-color: rgb(200, 102 ,3);
+    border-radius: 100px;
+    padding: 2px 5px;
 }
