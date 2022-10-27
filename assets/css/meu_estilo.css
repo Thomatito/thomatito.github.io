@@ -89,3 +89,11 @@ img{
     border-radius: 100px;
     padding: 2px 5px;
 }
+
+footer{
+    background-color: #140a14;
+    height: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(241, 216, 69);
+}
